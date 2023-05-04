@@ -1,0 +1,51 @@
+body {text-align: center;}
+p{text-align: left}
+ul	{text-align: left;}
+h2{text-align: left}
+h3{text-align: left;}
+
+body{color : background-color: #8F08FF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23FFFFFF' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%238F08FF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%238b09ef' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23860ae0' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23810cd1' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%237b0ec3' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23750fb5' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%236f11a7' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23691299' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2362148c' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%235c157f' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23551572' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%234e1666' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%2347165a' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%233f164e' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23381643' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23301538' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%2329142e' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23211324' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;}
+
+h1 {color: darkblue; font-family: 'Orbitron', sans-serif;}
+h2 {color: blueviolet; font-family: 'Orbitron', sans-serif;}
+h3 {color : white; font-family: 'Orbitron', sans-serif}
+ul {color : white;font-family: 'Orbitron', sans-serif}
+p {font-family: 'arial'}
+
+.cadre {background-color:#D2CAEC; 
+	    border: solid 2px blueviolet;
+	    border-radius: 5px;
+	    padding: 20px;
+	    margin: 20px;}
+
+.cadre1 {background-color:background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+; 
+	    border: solid 2px blueviolet;
+	    border-radius: 5px;
+	    padding: 20px;
+	    margin: 20px;}
+
+
+
+
+
+.navbar {display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #E2F3DC;}
+
+.links {display: flex;
+       justify-content: flex-end;}
+
+.link {margin: 10px 30px;
+      color: white;font-family: 'Orbitron', sans-serif;}
+
+.link:hover {color: #D2CAEC;}
+
+.logo{float: left;
+      margin-right: 10px;}
